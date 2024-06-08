@@ -27,7 +27,7 @@ export default function Header() {
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
           <div className='flex flex-row	items-center' style={{gap:10}}>
-            <img src="..\src\assets\image\Logo.png"  style={{height:60,width:60}}/>
+            <img src="/assets/image/Logo.png" alt='' style={{height:60,width:60}}/>
             <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
               <span className='text-slate-500 text-[29px] mr-[4px]'>Orion</span>
               <span className='text-slate-700 text-[29px]'>Estate</span>
